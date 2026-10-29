@@ -4,12 +4,12 @@ import Image from "next/image"
 
 export default function Architecture() {
     return (
-        <div className="w-full relative grid grid-cols-[minmax(16px,1fr)_minmax(360px,1200px)_minmax(16px,1fr)] pt-20 bg-second-bg pb-20">
+        <div id="architecture" className="  w-full relative grid grid-cols-[minmax(16px,1fr)_minmax(360px,1200px)_minmax(16px,1fr)] pt-20 bg-second-bg pb-20 font-sans">
             <div className="col-2 w-full flex flex-col">
                 <h3 className="text-second-color font-bold ">
                     АРХИТЕКТУРА
                 </h3>
-                <h2 className="text-btn-bg text-4xl font-bold pt-4 pb-10">
+                <h2 className="text-btn-bg text-4xl font-bold pt-4 pb-10 font-serif">
                     Архитектура системы
                 </h2>
                 <div className="w-full flex gap-x-2 justify-between items-stretch ">
@@ -108,7 +108,7 @@ export default function Architecture() {
                 </div>
                 <div className="w-full grid grid-cols-3 grid-wrap items-start gap-x-3 pt-8">
                     <div className="flex-col gap-y-18 p-7 border border-[#E0E6EF] rounded-2xl bg-white">
-                        <p className="text-2xl text-btn-bg font-bold pb-5">
+                        <p className="text-xl text-btn-bg font-bold pb-5">
                             Технологический стек
                         </p>
                         <table className="rounded-2xl overflow-hidden">
@@ -156,7 +156,7 @@ export default function Architecture() {
 
 
                     <div className="flex-col gap-y-18  p-7 border border-[#E0E6EF] rounded-2xl bg-white">
-                        <p className="text-2xl text-btn-bg font-bold pb-5">
+                        <p className="text-xl text-btn-bg font-bold pb-5">
                             Правовая методология
                         </p>
                         <ul className="flex flex-col gap-y-3">
@@ -172,7 +172,7 @@ export default function Architecture() {
                     </div>
 
                     <div className="flex-col gap-y-18  p-7 border border-[#E0E6EF] rounded-2xl bg-white">
-                        <p className="text-2xl text-btn-bg font-bold pb-5">
+                        <p className="text-xl text-btn-bg font-bold pb-5">
                             Этика и данные
                         </p>
                         <ul className="flex flex-col gap-y-3">

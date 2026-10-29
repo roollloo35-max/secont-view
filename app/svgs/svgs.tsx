@@ -188,7 +188,7 @@ const iconsMap: Record<IconName, IconData> = {
     viewBox: '0 0 16 16',
     content: (
         <>
-        <path d="M13.3334 4L6.00008 11.3333L2.66675 8" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" stroke="#C29A4B"/>
+        <path d="M13.3334 4L6.00008 11.3333L2.66675 8" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" stroke="#C29A4B"/>
         </>
     ),
   },

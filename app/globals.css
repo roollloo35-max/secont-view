@@ -6,9 +6,11 @@
   --color-second-bg: #F4F6FA;
   --color-dark-blue: #5C6B82;
   --color-second-color: #C29A4B;
-  --color-second-blurcolor: #E4D3AE;
+  --color-second-blurcolor: #C29A4B20;
   --color-light-blue: #8A97AB;
   --color-btn-bg: #0B1F3A; 
+  --font-serif: var(--font-literata);
+  --font-sans: var(--font-manrope);
 }
 
 body {

@@ -47,36 +47,8 @@
     cursor: pointer;
 }
 
-.aniburger::before {
-    top: 50%;
-    transform: translateY(-20%) translateX(-50%);
-    content: '';
-    display: block;
-    width: 150%;
-    height: 100%;
-    border-bottom: 2px solid var(--color-light-blue);
-    position: absolute;
-    left: 50%;
 
-    border-radius: 50%;
 
-}
-
-.aniburger:hover .burger {
-    background-color: transparent;
-}
-
-.aniburger:hover .burger::after {
-
-    transform: translateY(0px) rotate(45deg);
-
-}
-
-.aniburger:hover .burger::before {
-
-    transform: translateY(0px) rotate(-45deg);
-
-}
 
 .text_header {
     position: relative;

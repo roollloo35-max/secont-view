@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function HowWork() {
     return (
-        <div className="w-full relative grid grid-cols-[minmax(16px,1fr)_minmax(360px,1200px)_minmax(16px,1fr)] pt-20 bg-white pb-20 overflow-hidden">
+        <div id="how-work" className="w-full relative grid grid-cols-[minmax(16px,1fr)_minmax(360px,1200px)_minmax(16px,1fr)] pt-20 bg-white pb-20 overflow-hidden font-sans">
             <Image
                 src="/town2.png"
                 alt="image not loading"
@@ -15,7 +15,7 @@ export default function HowWork() {
                 <h3 className="text-second-color font-bold ">
                     КАК ЭТО РАБОТАЕТ
                 </h3>
-                <h2 className="text-btn-bg text-4xl font-bold pt-4 pb-10">
+                <h2 className="text-btn-bg text-4xl font-bold pt-4 pb-10 font-serif">
                    От проекта приговора до отчёта за четыре шага
                 </h2>
                 <div className="w-full grid grid-cols-4 gap-x-4 justify-between items-stretch ">
