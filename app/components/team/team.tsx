@@ -19,7 +19,7 @@ export default function Team() {
                             <div className="p-5 bg-white rounded-full"> <Icon name="user" color="#2A5C9A" size={32} /></div>
                         </div>
                         <p className="font-bold text-btn-bg text-base">
-                            Имя Фамилия
+                            Сорокина Виктория Владимировна 
                         </p>
                         <p className="text-light-blue">
                             Руководитель проекта, юридическое направление
