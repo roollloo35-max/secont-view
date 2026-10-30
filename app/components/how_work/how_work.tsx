@@ -1,14 +1,14 @@
 import { Icon } from "@/app/svgs/svgs"
 import Image from "next/image"
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 
 
 export default function HowWork() {
     return (
         <div id="how-work" className="w-full relative grid grid-cols-[minmax(16px,1fr)_minmax(360px,1200px)_minmax(16px,1fr)] pt-20 bg-white pb-20 overflow-hidden font-sans">
-            <Image
-                src={`${basePath}/town2.png`}
+            <img
+                src={`/secont-view/town2.png`}
                 alt="image not loading"
                 width={1140}
                 height={661}

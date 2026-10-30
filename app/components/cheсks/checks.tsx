@@ -1,15 +1,15 @@
 import { Icon } from "@/app/svgs/svgs";
 import Image from "next/image";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 
 
 export default function Checks() {
     return (
 
         <div id="check" className="w-full relative grid grid-cols-[minmax(16px,1fr)_minmax(360px,1200px)_minmax(16px,1fr)] pt-20 bg-btn-bg pb-20 overflow-hidden font-sans">
-            <Image
-                src={`${basePath}/town3.png`}
+            <img
+                src={`/secont-view/town3.png`}
                 alt="image not loading"
                 width={1140}
                 height={661}

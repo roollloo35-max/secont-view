@@ -1,15 +1,15 @@
 import Image from "next/image"
 import { Icon } from "@/app/svgs/svgs"
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 
 
 
 export default function Bunner() {
     return (
         <div className="bg-btn-bg w-full mt-35 py-19 relative overflow-hidden grid grid-cols-[minmax(16px,1fr)_minmax(360px,1200px)_minmax(16px,1fr)]" id="bunner">
-            <Image
-                src={`${basePath}/hero.png`}
+            <img
+                src={`/secont-view/hero.png`}
                 alt="image not loading"
                 width={1140}
                 height={661}
