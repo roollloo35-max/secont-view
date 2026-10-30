@@ -46,10 +46,10 @@ export default function Solution() {
                             <Icon name="eye" color="#2A5C9A" size={22} />
                         </div>
                         <p className="font-bold text-btn-bg text-base">
-                            Человек в контуре
+                            Прозрачность и объяснимость
                         </p>
                         <p className="text-light-blue">
-                            Окончательное решение всегда принимает судья
+                           Понятные рекомендации и ссылки на нормы права
                         </p>
                     </div>
 
@@ -59,10 +59,10 @@ export default function Solution() {
                             <Icon name="file-text" color="#2A5C9A" size={22} />
                         </div>
                         <p className="font-bold text-btn-bg text-base">
-                            Человек в контуре
+                            Обоснованность выводов
                         </p>
                         <p className="text-light-blue">
-                            Окончательное решение всегда принимает судья
+                            Каждый вывод подкреплён нормой или примером практики
                         </p>
                     </div>
 
