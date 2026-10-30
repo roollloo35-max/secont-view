@@ -2,13 +2,14 @@ import { Icon } from "@/app/svgs/svgs"
 import Image from "next/image"
 
 
+const url = "https://roollloo35-max.github.io/second_view/"
 
 
 export default function Solution() {
     return (
         <div id="solutions" className="w-full relative  grid grid-cols-[minmax(16px,1fr)_minmax(360px,1200px)_minmax(16px,1fr)] pt-20 bg-second-bg pb-20">
             <Image
-                src={`/secont-view/town.png`}
+                src={`${url}town.png`}
                 alt="image not loading"
                 width={1140}
                 height={661}

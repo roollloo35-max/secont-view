@@ -3,13 +3,13 @@ import { Icon } from "@/app/svgs/svgs"
 
 
 
-
+const url = "https://roollloo35-max.github.io/second_view/"
 
 export default function Bunner() {
     return (
         <div className="bg-btn-bg w-full mt-35 py-19 relative overflow-hidden grid grid-cols-[minmax(16px,1fr)_minmax(360px,1200px)_minmax(16px,1fr)]" id="bunner">
             <img
-                src={`/secont-view/hero.png`}
+                src={`${url}hero.png`}
                 alt="image not loading"
                 width={1140}
                 height={661}
@@ -30,7 +30,7 @@ export default function Bunner() {
                     Прототип ПО, который проверяет назначенное наказание на соответствие санкции статьи УК РФ, правилам Общей части и статистике правоприменительной практики.
                 </p>
                 <div className="flex gap-3 mt-10">
-                    <a  href="public/index.txt" download="index.txt" className="flex gap-4 bg-second-color font-sans econd-color items-center px-6 py-4 text-btn-bg font-bold text-base rounded-xl cursor-pointer  "><span>                            
+                    <a  href="public/concept.pdf" download="index.txt" className="flex gap-4 bg-second-color font-sans econd-color items-center px-6 py-4 text-btn-bg font-bold text-base rounded-xl cursor-pointer  "><span>                            
                         <Icon name="download" color="#0B1F3A" size={22} />
                     </span> Скачать концепцию (PDF)</a>
 

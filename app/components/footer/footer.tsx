@@ -17,7 +17,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <a href="public/index.txt" download="index.txt"  className="bg-white h-full px-5.5 flex flex-row items-center rounded-xl gap-x-3 cursor-pointer ">
+                <a href="public/concept.pdf" download="index.txt"  className="bg-white h-full px-5.5 flex flex-row items-center rounded-xl gap-x-3 cursor-pointer ">
                     <div className="">
                         <Icon name="download" color="#0B1F3A" size={22} />
 

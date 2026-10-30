@@ -2,13 +2,14 @@ import { Icon } from "@/app/svgs/svgs"
 import Image from "next/image"
 
 
+const url = "https://roollloo35-max.github.io/second_view/"
 
 
 export default function HowWork() {
     return (
         <div id="how-work" className="w-full relative grid grid-cols-[minmax(16px,1fr)_minmax(360px,1200px)_minmax(16px,1fr)] pt-20 bg-white pb-20 overflow-hidden font-sans">
             <img
-                src={`/secont-view/town2.png`}
+                src={`${url}town2.png`}
                 alt="image not loading"
                 width={1140}
                 height={661}

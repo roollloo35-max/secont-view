@@ -7,6 +7,12 @@ const nextConfig: NextConfig = {
 
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "roollloo35-max.github.io",
+        pathname: "/second_view/**", // Укажите имя вашего репозитория с картинками
+      },]
   },
   trailingSlash: true,
   

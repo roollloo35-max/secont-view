@@ -2,6 +2,7 @@ import { Icon } from "@/app/svgs/svgs";
 import Image from "next/image";
 
 
+const url = "https://roollloo35-max.github.io/second_view/"
 
 
 export default function Checks() {
@@ -9,7 +10,7 @@ export default function Checks() {
 
         <div id="check" className="w-full relative grid grid-cols-[minmax(16px,1fr)_minmax(360px,1200px)_minmax(16px,1fr)] pt-20 bg-btn-bg pb-20 overflow-hidden font-sans">
             <img
-                src={`/secont-view/town3.png`}
+                src={`${url}town3.png`}
                 alt="image not loading"
                 width={1140}
                 height={661}
