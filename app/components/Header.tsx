@@ -29,7 +29,7 @@ export default function Header() {
                     </div>
                 </div>
 
-                <a href="public/concept.pdf" download="index.txt" className="bg-btn-bg h-full px-5.5 flex flex-row items-center rounded-xl gap-x-3 cursor-pointer block">
+                <a href="public/concept.pdf" download="concept.pdf" className="bg-btn-bg h-full px-5.5 flex flex-row items-center rounded-xl gap-x-3 cursor-pointer block">
                     <div className="">
                         <Icon name="download" color="#C29A4B" size={22} />
 
