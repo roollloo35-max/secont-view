@@ -2,7 +2,7 @@ name: Deploy Next.js site to Pages
 
 on:
   push:
-    branches: ["main"] # Замените на вашу основную ветку, если это не main
+    branches: ["master"] # Замените на вашу основную ветку, если это не main
   workflow_dispatch:
 
 permissions:
